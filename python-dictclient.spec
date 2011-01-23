@@ -8,6 +8,8 @@ URL:		http://gopher.quux.org:70/devel/dictclient
 Source0:	http://gopher.quux.org:70/devel/dictclient/dictclient_%{version}.tar.gz
 # Source0-md5:	0a677022c2ae311d8cbff8f67ce1ba21
 BuildRequires:	python-distribute
+BuildRequires:	python-modules
+BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.219
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
