@@ -1,7 +1,7 @@
 Summary:	Python client for DICT protocol
 Name:		python-dictclient
 Version:	1.0.1
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		Development/Languages
 URL:		http://gopher.quux.org:70/devel/dictclient
